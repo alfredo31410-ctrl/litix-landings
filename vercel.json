@@ -1,10 +1,41 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true,
-  "rewrites": [
+  "trailingSlash": false,
+  "redirects": [
     {
       "source": "/",
-      "destination": "/universidad-no-enseño/"
+      "destination": "/universidad-no-enseno",
+      "permanent": false
+    },
+    {
+      "source": "/universidad-no-enseño",
+      "destination": "/universidad-no-enseno",
+      "permanent": false
+    },
+    {
+      "source": "/universidad-no-ense%C3%B1o",
+      "destination": "/universidad-no-enseno",
+      "permanent": false
+    },
+    {
+      "source": "/universidad-no-enseño/gracias",
+      "destination": "/universidad-no-enseno/gracias",
+      "permanent": false
+    },
+    {
+      "source": "/universidad-no-ense%C3%B1o/gracias",
+      "destination": "/universidad-no-enseno/gracias",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/universidad-no-enseno",
+      "destination": "/universidad-no-enseno/index.html"
+    },
+    {
+      "source": "/universidad-no-enseno/gracias",
+      "destination": "/universidad-no-enseno/gracias/index.html"
     }
   ]
 }
