@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/litigio-mercantil-gratis/"
+      "destination": "/universidad-no-enseño/"
     }
   ]
 }
